@@ -1,6 +1,6 @@
-const gameText = document.getElementByid('game-text2');
-const userInput = document.getElementByid('user-input2');
-const submitBtn = document.getElementByid('submit-btn2');
+const gameText = document.getElementById('game-text2');
+const userInput = document.getElementById('user-input2');
+const submitBtn = document.getElementById('submit-btn2');
 function print(text){
   gameText.innerText += text + "/n";
   gameText.scrollTop = gameText.scrollHeight;
