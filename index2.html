@@ -1,1 +1,143 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Personal Wbpage</title>
+<style>
+body{
+	background-color: powderblue;
+	font-family: Arial;
+	color: black;
+	text-align: center;
+	}
+div.header{
+	background-color: tomato;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	}
+h1{
+	color: navy;
+	font-size: 36px;
+	}
+p{
+	font-size: 18px;
+	}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 10px;
+	background-color: #f8f8f8;
+	padding: 10px;
+	}
+.grid-item{
+	background-color: #4CAF50;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	}
+.button-transition{
+	background-color: navy;
+	color: white;
+	padding: 10px 20px;
+	transition: background-color 0.3s ease;
+	border: none;
+	cursor: pointer;
+	}
+.button-transition:hover {
+	background-color: tomato;
+	}
+img{
+	width: 200px;
+	height: 125px;
+	border-radius: 50%;
+	border: 3px solid green;
+	margin-top: 10px;
+}
+.flex-container {
+	display: flex;
+	justify-content: space-around;
+	background-color: lightgray;
+	padding: 20px;
+}
+.flex-item {
+	background-color: steelblue;
+	color: white;
+	padding: 20px;
+	width: 30%;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<div class = "header">
+	<h1>Welcome to My Personal Webpage</h1>
+	<p>This is a simple example of a HTML, JavaScript, and CSS personal webpage.</p>
+	<pre style = "font-size: 24px";>
+	Name: Adam N German
+	Age: 46
+	Location: Kansas City
+	</pre>
+<br>
+<div class="grid container">
+<div class="grid-item"><a href = "https://www.discovery.com/" style = "color:black"; target= "_blank";>
+<button class = "button-transition">Discovery</button><a></div>
+<div class="grid-item"></div>
+<div class="grid-item"><a href = "https://www.nationalgeographic.com/tv/" style = "color:black"; target= "_blank";>
+<button class = "button-transition">NatGeo</button><a></div>
+<div class="grid-item"></div>
+<div class="grid-item"><a href = "adventure.html" style = "color:black"; target= "_blank";>
+<button class = "button-transition">Adventure Game Webpage</button></a></div>
+<div class= "grid-item"></div>
+</div>
+</div>
+<div class="flex-container">
+	<div class="flex-item"><p>Check out myfavorite website:
+<a href="https://www.npr.org/"target="_blank">National Public Radio</a></p></div>
+<div class="flex-item">
+	<a href="https://adamnwings.github.io/Practice-webpage/" target="_blank">
+		<img src="https://github.com/AdamnWingS/Practice-webpage/blob/main/Cool%20Cat.jpg?raw=true" alt="Sample Image" title = "Cool Cat"></a></div>
+<div class="flex-item"><p>Email me at the following address: <a href="mailto:adamnngerman45@gmail.com"
+target="_blank">adamnngerman45@gmail.com</a></p></div>
+</div>
+<br><br>
+<hr>
+<br><br>
+<div class="grid-container">
+<div class = "grid-item">
+<h2>My Hobbies</h2>
+<table>
+<tr>
+<th>Hobby</th>
+<th>Hours/Week</th>
+</tr>
+<tr>
+<td>Hobby 1</td>
+<td>time</td>
+</tr>
+<tr>
+<td>Hobby 2</td>
+<td>time</td>
+</tr>
+</table>
+</div>
+<div class="grid-item"></div>
+<div class = "grid-item">
+<h2>My Favorite Movies</h2>
+<table>
+<tr>
+<th>Movies</th>
+<th>Year</th>
+</tr>
+<tr>
+<td>Your movies</td>
+<td>release year</td>
+</tr>
+<tr>
+<td>Your movie</td>
+<td>release year</td>
+</tr>
+</table>
+</div>
+</div>
+</body>
+</html>
